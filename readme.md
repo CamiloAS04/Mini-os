@@ -1,38 +1,34 @@
 
 ---
 
-## 🚀 Cómo usar el proyecto
+##  Cómo usar el proyecto
 
 1. Clona o descarga el repositorio.
 2. Abre `index.html` en tu navegador.
 3. Usa el menú para cambiar entre las aplicaciones disponibles:
-   - 📒 Notas
-   - ✅ Tareas
-   - 🌤️ Clima
+   -  Notas
+   -  Tareas
+   -  Clima
 4. Cada aplicación se muestra dentro de un `iframe`.
 
----
 
-## 🧩 Detalles técnicos
+##  Detalles técnicos
 
-- ✅ Proyecto hecho 100% en **HTML5 y CSS3**.
-- ❌ Sin JavaScript.
-- ❌ Sin frameworks ni bibliotecas externas.
-- 💡 Navegación simulada con radio buttons y `display: none`/`block` en CSS.
-- 📱 Diseño **responsive** para pantallas móviles.
+- Proyecto hecho 100% en **HTML5 y CSS3**.
+- Sin JavaScript.
+- Sin frameworks ni bibliotecas externas.
+- Navegación simulada con radio buttons y `display: none`/`block` en CSS.
+- Diseño **responsive** para pantallas móviles.
 
----
 
-## 🌐 Despliegue
+##  Despliegue
 
 🔗 Puedes ver el proyecto en vivo aquí:
 
-**[GitHub Pages](https://TU_USUARIO.github.io/mini-os)**  
-_(Reemplaza `TU_USUARIO` por tu usuario de GitHub al subirlo)_
+**[GitHub Pages](https://camiloas04.github.io/Mini-os/)**  
 
----
 
-## 📌 Requisitos cumplidos
+##  Requisitos cumplidos
 
 - [x] Proyecto de una sola página principal (`index.html`)
 - [x] Mínimo 3 aplicaciones disponibles
@@ -44,15 +40,13 @@ _(Reemplaza `TU_USUARIO` por tu usuario de GitHub al subirlo)_
 - [x] Desplegado en GitHub Pages
 - [x] Tareas registradas en Azure DevOps
 
----
 
-## 🧠 Aprendizajes
+##  Aprendizajes
 
 Este proyecto ayudó a comprender cómo usar HTML y CSS de forma avanzada para simular interactividad básica sin programación, así como la importancia de estructurar archivos, mantener estilos coherentes y diseñar pensando en múltiples dispositivos.
 
----
 
-## 🛠️ Herramientas utilizadas
+##  Herramientas utilizadas
 
 - HTML5
 - CSS3 (Flexbox, Media Queries)
@@ -60,10 +54,9 @@ Este proyecto ayudó a comprender cómo usar HTML y CSS de forma avanzada para s
 - GitHub Pages
 - Azure DevOps (gestión de tareas)
 
----
 
-## 📒 Créditos
+##  Créditos
 
-Desarrollado por: **[Tu Nombre Aquí]**  
-Curso: [Nombre del curso / módulo si aplica]
+Desarrollado por: **[Juan Camilo Alvarez Sanchez]**  
+Clan: **[Van Rossum]**
 
