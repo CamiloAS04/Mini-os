@@ -1,0 +1,118 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo general */
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 1rem;
+  line-height: 1.5;
+}
+
+/* Títulos */
+h1, h2 {
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+/* Header y menú responsive */
+header {
+  background-color: #fff;
+  padding: 1rem;
+  border-bottom: 2px solid #ddd;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+label {
+  font-weight: bold;
+}
+
+/* Botones de menú */
+label[for^="opt-"] {
+  padding: 0.5rem 1rem;
+  background-color: #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  font-size: 1rem;
+}
+
+input[type="radio"]:checked + label {
+  background-color: #bbb;
+  font-weight: bold;
+}
+
+/* App container */
+.app-container {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+  height: 500px;
+}
+
+/* iFrames */
+iframe {
+  border: none;
+  width: 100%;
+  height: 100%;
+}
+
+/* Campos de texto */
+textarea, input[type="text"] {
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.75rem;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Lista de tareas */
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 0.5rem;
+  background-color: #f7f7f7;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Responsive para pantallas pequeñas */
+@media (max-width: 600px) {
+  body {
+    padding: 0.5rem;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  label[for^="opt-"] {
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .app-container {
+    height: 400px;
+  }
+
+  textarea {
+    height: 300px;
+  }
+}
